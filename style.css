@@ -13,6 +13,7 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 .spaces {
@@ -37,7 +38,7 @@ body {
 
     justify-content: center;
 
-    background-color: black;
+   
     border-left: 2px solid green;
     border-bottom: 2px solid red;
 
@@ -54,8 +55,9 @@ body {
     border-left: none;
 }
 
-.cell:nth-child(3n +3) {
+.cell:nth-child(3n) {
     border-right: none;
+    color: white ;
 }
 
 .cell:last-child,
